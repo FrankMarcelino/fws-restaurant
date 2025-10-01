@@ -8,9 +8,9 @@ interface ProductsProps {
 }
 
 const Products = ({products}: ProductsProps) => {
-  return <div className="space-y-3 px-1.5">
+  return <div className="space-y-3 px-5 ">
     {products.map((product) => (
-      <Link href="/" className="flex items-center justify-between gap-10 py-3" key={product.id}>
+      <Link href="/" className="flex items-center justify-between gap-10 border-b py-5" key={product.id}>
         {/* ESQUERDA */}
         <div>
           <h3 className="text-sm font-medium">{product.name}</h3>

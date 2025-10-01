@@ -34,7 +34,7 @@ const RestaurantCategories = ({ restaurant }: RestaurantCategoriesProps) => {
     return category.id === selectedCategory.id ? "default" : "secondary";
   };
   return (
-    <div className="mt- relative z-50 mt-[-1.5rem] rounded-tl-3xl border bg-white">
+    <div className="mt- relative z-50 mt-[-1.5rem] rounded-t-3xl  bg-white">
       <div className="p-5">
         <div className="flex items-center gap-3">
           <Image
@@ -60,6 +60,8 @@ const RestaurantCategories = ({ restaurant }: RestaurantCategoriesProps) => {
               onClick={() => habdleCategoryClick(category)}
               key={category.id}
               variant={getCategoryButtonVariant(category)}
+                  size="sm"
+              className="rounded-full"
             >
               {category.name}
             </Button>
@@ -67,6 +69,7 @@ const RestaurantCategories = ({ restaurant }: RestaurantCategoriesProps) => {
         </div>
         <ScrollBar orientation="horizontal" />
       </ScrollArea>
+          <h3 className="px-5 font-semibold pt-8">{selectedCategory.name}</h3>
       <Products products={selectedCategory.products} />
     </div>
   );
