@@ -1,0 +1,13 @@
+[33mf4e61e4[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m feat: add product header component
+[33m6314a4c[m feat: add restaurant menu page with categories and products
+[33m17e8da8[m indo para casa
+[33m44be187[m feat: add initial restaurant page and menu page
+[33ma004190[m saindo para reunião
+[33mf746925[m feat: cosumption method option
+[33m46ead66[m chore:: add eslint sort plugin and prettier tawind plugin
+[33mf435ad9[m chore: update app font
+[33m63832a5[m chore: update css variables
+[33m53ca0a0[m feat: add shadcn initial setup and components
+[33me87c5fc[m feat: add db seed script
+[33m2d1db7d[m feat: add intial db tables
+[33m75941d0[m first commit
